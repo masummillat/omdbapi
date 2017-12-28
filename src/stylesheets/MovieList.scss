@@ -1,0 +1,46 @@
+.list{
+  margin: 10px;
+  height: 300px;
+  width: 100%;
+  display: inline-flex;
+  background-color: #F6F6F5;
+  overflow: hidden;
+  div{
+    margin: 10px;
+    text-align: left;
+
+  }
+  img{
+    height: 100%;
+    width: 100%;
+  }
+
+  div div {
+    margin: 5px;
+    padding: 0;
+    a  {
+        h2{
+          margin: 0;
+        }
+    }
+
+    p {
+      margin: 5px;
+      padding: 0;
+    }
+  }
+}
+
+.runtime_biography{
+  display: inline-flex;
+}
+.metascore{
+  display: inline-flex;
+}
+.director{
+  display: inline-flex;
+}
+.Stars{
+  display: inline-flex;
+}
+
